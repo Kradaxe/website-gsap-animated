@@ -1,0 +1,386 @@
+
+  *{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+  }
+
+
+  /* Landing page ----------------------------------------------------------------------------------------------------------------------------- */
+  
+  
+  .grey-box {
+
+    background-color: grey;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+  
+  .orange-box {
+
+    background-color: rgba(255,92,44,255);
+    width: 80vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+
+  }
+
+ 
+
+  .orange-box p{
+
+    position: absolute;
+    z-index: 1;
+
+
+  }
+
+  .count {
+     margin-top: 500px;
+     margin-right: 1100px;    
+    font-size: 24px;
+  }
+
+
+  /* Home page ----------------------------------------------------------------------------------------------------------------------------------*/
+
+
+  .second{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: grey;
+
+  }
+
+  nav {
+    background-color: rgba(255,92,44,255);
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    width: 80vw;
+    margin-left: 10px;
+  }
+  
+
+  nav a {
+    color: #fff;
+    font-size: 1.5rem;
+    text-decoration: none;
+    padding: 5px 10px;
+  }
+
+
+  .video-container {
+    position: relative;
+    width: 80vw;
+    height: 0;
+    padding-bottom: 56.25%; 
+    background-color: #fff;
+  }
+  
+
+  .video-container video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+  }
+
+
+  .overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 150px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+
+
+
+
+/*pics first------------------------------------------------------------------------------------------------------------------------------------ */
+
+
+
+
+
+ .picfirst-box{
+
+    background-color: grey;
+    width: 100vw;
+
+}
+
+ .secx1{
+
+    display: flex;
+    width: 80%;
+    margin: auto;
+    background-color: #fff;
+    padding-top: 50px;
+    }
+  .secx2{
+    display: flex;
+    justify-content: space-between;
+    color:rgba(255,92,44,255);
+    font-size: 1.5rem;
+  }
+  
+
+    .box{
+        border: 2px;
+        height: 400px;
+        width: 400px;
+        margin: 80px 80px;
+        transform: skew(-10deg) rotate(2deg);
+      -webkit-transform: skew(-10deg) rotate(2deg);
+      -moz-transform: skew(-10deg) rotate(2deg);
+    }
+    #idbox1{
+        background: url(hutt.jpg);
+        background-size: 100%;
+        height: 360px;
+        width: 400px;
+    }
+    #idbox2{
+        background: url(build2.jpg);
+        background-size: 100%;
+        height: 360px;
+        width: 400px;
+    }
+    #idbox3{
+        background: url(build1.jpg);
+        background-size: 100%;
+        height: 360px;
+        width: 400px;
+    }
+    #idbox4{
+        background: url(field.jpg);
+        background-size: 100%;
+        height: 360px;
+        width: 400px;
+    }
+
+
+
+
+
+
+/* pics -----------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+
+
+
+
+.pics-container{
+
+    width: 100vw;
+    background-color: grey;
+}
+
+
+#secx{
+    position: relative;
+    top: 0px;
+    width: 80%;
+    background-color: white;
+    margin: auto;
+}
+#secx::before{
+    content: "";
+    position: absolute;
+    background: url(door.jpg);
+    background-size: 100%;
+    height: 1085px;
+    width: 800px;
+    top: 0px;
+    left: 200px;
+    z-index: -1;
+    opacity: 0.9;
+}
+#sec{
+    display: flex;
+    justify-content: space-between;
+}
+#timebeauty{
+    font-size: 11rem;
+    color: rgba(255,92,44,255);
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 250px;
+    padding-bottom: 250px;
+}
+#leaf{
+    font-size: 1.5rem;
+    width: 600px;
+    margin-left: 200px;
+    color: rgba(255,92,44,255);
+}
+#reaf{
+    font-size: 1.5rem;
+    width: 600px;
+    margin-right: 200px;
+    color: rgba(255,92,44,255);
+}
+.boll{
+    font-size: 2rem;
+}
+
+
+
+
+
+  /* pics 1 ------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+
+
+
+
+#super{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 80%;
+    height: 1100px;
+    margin: auto;
+    background: #fff;
+    padding-top: 100px;
+    margin-bottom: 300px;
+}
+
+#first{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#second{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pic{
+    margin: 10px 10px;
+    opacity: 0;
+}
+
+#lawn{
+    background: url(lawn.jpg);
+    background-size: 100%;
+    height: 370px;
+    width: 800px;
+}
+
+#circle{
+    background: url(circle.jpg);
+    background-size: 100%;
+    height: 370px;
+    width: 250px;
+    border: 2px;
+    border-top-left-radius:150px;
+    border-top-right-radius: 150px;
+}
+
+#caffe{
+    background: url(cafe.jpg);
+    background-size: 100%;
+    height: 300px;
+    width: 500px;
+}
+#get-to{
+    font-size: 3rem;
+    font-weight: bold;
+    align-self:last baseline;
+}
+#get-to a{
+    text-decoration: none;
+    color: rgba(255,92,44,255);
+}
+
+.superOut{
+
+    width: 100vw;
+    height: 100vh;
+    background-color: grey;
+    
+
+}
+
+  
+
+
+  /* footer ----------------------------------------------------------------------------------------------------------------------------------- */
+
+
+
+footer{
+    background-color: grey;
+    color: white;
+    width: 100vw;
+
+    margin: auto;
+    
+}
+
+.main-footer{
+
+    width: 81%;
+    height: 80%;
+    margin: auto;
+    background-color: rgba(255,92,44,255);
+    padding: 100px;
+
+}
+
+#wrap{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+#down{
+    display: flex;
+    justify-content: space-between;
+}
+#big{
+    text-align: center;
+    font-size: 5rem;
+    padding-top: 0px;
+    padding-bottom: 280px;
+}
+#left{
+    font-size: 2rem;
+}
+
+#foot{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 50px;
+}
+
+
+ 
+  @media (max-width: 600px) {
+    .image-container {
+      flex-direction: column;
+    }
+  }
